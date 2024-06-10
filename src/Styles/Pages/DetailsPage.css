@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: #14213d;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.contentLivre{
+    border: 3px #000000 solid;
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.emprunterLivre{
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #fca311;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.emprunterLivre:hover{
+    border: 2px white solid;
+}

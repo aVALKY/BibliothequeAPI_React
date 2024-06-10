@@ -1,0 +1,20 @@
+.body{
+    background-color: #14213d;
+}
+.card-livre .card-body {
+    padding: 0; 
+    margin: 0; 
+}
+.card-livre {
+    border: 3px #000000 solid !important; 
+    padding: 20px;
+    cursor: pointer; 
+    text-align: center; 
+    margin: 20px; 
+    box-sizing: border-box;
+    background-color: #e5e5e5 !important;
+}
+
+.card-livre:hover{
+    border: 3px #fca311 solid !important;
+}
